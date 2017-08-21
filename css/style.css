@@ -1,0 +1,89 @@
+
+/*
+HEADEr and navbar
+*/
+
+#navbar ul li a:hover{
+    background-color: #dddddd;
+    color: #000;
+}
+
+footer {
+    background: #2b2b2b;
+    text-align: center;
+    color: #ddd;
+    height: inherit;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer ul.social-networks li {
+    display:inline;
+    align-content: flex-end;
+}
+
+footer ul.social-networks li i {
+    display:inline-block;
+}
+
+footer ul.social-networks li a {
+    color: #5e5e5e;
+    margin: 0 5px;
+}
+
+footer ul.social-networks li a:hover {
+    text-decoration:none;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+footer ul.social-networks li i.icon-bgdark {
+    background:		#C0C0C0	;
+    color: #7B68EE;
+}
+
+footer ul.social-networks li a i.icon-twitter:hover {
+    background: #5ad2eb;
+    color: #fff;
+}
+footer ul.social-networks li a i.icon-dribbble:hover {
+    background: cornflowerblue;
+    color: white;
+}
+
+/* circled */
+i.icon-circled {
+    display: inline-block;
+    border-radius: 1000px !important;
+    -moz-border-radius: 1000px !important;
+    -webkit-border-radius: 1000px !important;
+    -o-border-radius: 1000px !important;
+    -ms-border-radius: 1000px !important;
+    text-align: center;
+    width: 24px !important;
+    height: 24px !important;
+    line-height: 24px !important;
+}
+
+.icon-circled.icon-2x{
+    width: 48px !important;
+    height: 48px !important;
+    line-height: 48px !important;
+}
+
+i.icon-white {
+    color:#fff;
+}
