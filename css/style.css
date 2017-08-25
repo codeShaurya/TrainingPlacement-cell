@@ -8,6 +8,20 @@ HEADEr and navbar
     color: #000;
 }
 
+.container h1{
+    text-align: center;
+    color: lightblue;
+    font-size: 40px;
+}
+.container h3{
+    text-align: center;
+    color: lightblue;
+    font-size: 20px;
+}
+.container p{
+    text-align: justify;
+}
+
 footer {
     background: #2b2b2b;
     text-align: center;
