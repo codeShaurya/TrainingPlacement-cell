@@ -20,6 +20,14 @@ HEADEr and navbar
 }
 .container p{
     text-align: justify;
+
+}
+section{
+    padding-bottom: 50px;
+}
+
+.container .card{
+    margin-bottom: 60px;
 }
 
 footer {
