@@ -3,95 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <title>T&P</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
     <style>
-        body { padding-top: 40px; }
+        }
         h1{
             text-align: center;
-        }
-        #home_content{
-            text-align: center;
-            color: black;
-            background-color: #7B68EE;
-            backface-visibility: 10%;
-            background-repeat: no-repeat;
         }
     </style>
 </head>
 <body>
 <!--navigation bar start here-->
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="https://iitism.ac.in"><img src="kal.jpg" alt="IIT(ISM)"></a>
+<nav class="navbar navbar-expand-xl navbar-expand-lg navbar-expand-md navbar-inverse navbar-fixed-top">
+    <a class="navbar-brand" href="https://iitism.ac.in"><img src="http://iitism.ac.in/assets/img/ismlogo.png" alt="IIT(ISM)" style="width: 35px;height: 35px;"></a>
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarheader" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarheader">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item  ">
+                <a class="nav-link" href="./Home.html">HOME </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./placement_home.html">PLACEMENT HOME</a>
+            </li>
 
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li ><a href="./Home.html">HOME</a></li>
-                <li><a href="./placement_home.html">PLACEMENT HOME</a></li>
-                <li class="dropdown">
-                    <a href="./recruiters.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">RECRUITERS<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./recruiters.html">Our Recruiters</a></li>
-                        <li><a href="./recruiters.html">why Recruit at IIT(ISM)</a></li>
-                        <li><a href="./recruiters.html">Rules & Procedures</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li class="dropdown-header">Facilities & Boarding</li>
-                        <li><a href="./recruiters.html">Departments & Courses</a></li>
-                        <li><a href="./recruiters.html">Job Notification Form</a></li>
-                        <li><a href="./recruiters.html">Placement Calender</a></li>
-                    </ul>
-                </li>
-                <li><a href="./placement_record.html">PLACEMENT RECORD</a></li>
-                <li class="active"><a href="internship_training.html">INTERSHIP & TRAINING</a></li>
-                <li><a href="./contact_us.html">CONTACT US</a></li>
-            </ul>
-        </div>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./recruiters.html" id="recruit_place" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">
+                    RECRUITERS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="recruit_place">
+                    <a  class="dropdown-item" href="./recruiters.html">Our Recruiters</a>
+                    <a class="dropdown-item" href="./recruiters.html">why Recruit at IIT(ISM)</a>
+                    <a class="dropdown-item" href="./recruiters.html">Rules & Procedures</a>
+                    <a class="dropdown-item" href="./recruiters.html">Facilities & Boarding</a>
+                    <a class="dropdown-item" href="./recruiters.html">Departments & Courses</a>
+                    <a class="dropdown-item" href="./recruiters.html">Job Notification Form</a>
+                    <a class="dropdown-item" href="./recruiters.html">Placement Calender</a>
+                </div>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="./placement_record.html">PLACEMENT RECORD </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="./internship_training.html">INTERNSHIP & TRAINING <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./recruiters.html" id="contact_place" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">
+                    CONTACT US
+                </a>
+                <div class="dropdown-menu" aria-labelledby="contact_place">
+                    <a  class="dropdown-item" href="./contact_us/placement-office.html">PLACEMENT OFFICE</a>
+                    <a class="dropdown-item" href="./contact_us/faculty-incharge.html">FACULTY INCHARGE</a>
+                    <a class="dropdown-item" href="./contact_us/student-repersentative.html">STUDENT REPRESENTATIVE</a>
+                    <a class="dropdown-item" href="./contact_us/reach-us.html">REACH US</a>
+                </div>
+            </li>
+        </ul>
     </div>
 </nav>
 <h1>
-    intership and training
+    placemnt record
 </h1>
 <!-- footer starts here-->
 <footer>
     <div class="container">
-            <div class="footer-col col-md-12">
-                <p class="copyright">
-                <div class="credits">
-                    <a href="" onclick="newPopup('')" >Training & Placement cell</a>
-                </div>
-                &copy; IIT(ISM) Dhanbad<br>
-                IIT (ISM) ,Dhanbad, Jharkhand 82600
-
-                </p>
+        <div class="footer-col col-md-12">
+            <p>
+            <div >
+                <h6 href=""  >Training & Placement cell</h6>
             </div>
+            &copy; IIT(ISM) Dhanbad<br>
+            IIT (ISM) ,Dhanbad, Jharkhand 82600
+
+            </p>
         </div>
+    </div>
     </div>
 </footer>
 <!-- footer ends here-->
-<script>
-    function newPopup(url) {
-        popupWindow=window.open(
-            url,'popUpWindow','height=350 ,width=810,left=10,top=10,resizable=yes,scrollbars=yes,toolbars=yes ,menubar=no ,location=no,directories=no,status=yes'
-        )
 
-    }
-</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
 </body>
 </html>
