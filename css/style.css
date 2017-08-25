@@ -10,12 +10,12 @@ HEADEr and navbar
 
 .container h1{
     text-align: center;
-    color: lightblue;
+    color: darkblue;
     font-size: 40px;
 }
 .container h3{
     text-align: center;
-    color: lightblue;
+    color: darkblue;
     font-size: 20px;
 }
 .container p{
