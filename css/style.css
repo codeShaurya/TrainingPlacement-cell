@@ -44,12 +44,4 @@ footer {
        position: relative;
     }
 }
-footer a {
-    color: black;
-}
-
-footer a:hover {
-    color: #fff;
-    text-decoration: underline;
-}
 
