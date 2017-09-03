@@ -7,6 +7,17 @@ HEADEr and navbar
     background-color: #dddddd;
     color: #000;
 }
+#nameContainer{
+    margin-top: 20px;
+}
+
+#line_on_page{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: black;
+    height: 2px;
+    background:black;
+}
 
 .container h1{
     text-align: center;
