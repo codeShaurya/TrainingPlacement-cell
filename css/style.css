@@ -11,6 +11,10 @@ HEADEr and navbar
     margin-top: 20px;
 }
 
+.card-header {
+    background-color: #2b2b2b !important;
+    color: white;
+}
 #line_on_page{
     margin-top: 20px;
     margin-bottom: 30px;
